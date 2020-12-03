@@ -12,9 +12,8 @@ void setup() {
 void loop() {
     timeToStartMainLoop = millis();
     // put your main code here, to run repeatedly:
-
+    statusLed.update();
+    
     timeToStartMainLoop = millis() - timeToStartMainLoop;
 	if (timeToStartMainLoop<timeMainLoopMax) delay(timeMainLoopMax - timeToStartMainLoop);
-    // put your main code here, to run repeatedly:
-    statusLed.update();
 }
