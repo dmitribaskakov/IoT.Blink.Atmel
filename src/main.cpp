@@ -3,6 +3,7 @@
 
 uint32_t timeToStartMainLoop=0;
 #define timeMainLoopMax 25  // время для сна
+StatusLed statusLed(13);
 
 void setup() {
     // put your setup code here, to run once:
@@ -14,4 +15,6 @@ void loop() {
 
     timeToStartMainLoop = millis() - timeToStartMainLoop;
 	if (timeToStartMainLoop<timeMainLoopMax) delay(timeMainLoopMax - timeToStartMainLoop);
+    // put your main code here, to run repeatedly:
+    statusLed.update();
 }
