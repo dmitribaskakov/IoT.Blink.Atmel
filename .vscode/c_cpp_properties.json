@@ -17,7 +17,6 @@
                 "C:/Users/Dmitry/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "C:/Users/Dmitry/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
                 "C:/Users/Dmitry/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
-                "C:/Users/Dmitry/.platformio/packages/tool-unity",
                 ""
             ],
             "browse": {
@@ -32,12 +31,11 @@
                     "C:/Users/Dmitry/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "C:/Users/Dmitry/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
                     "C:/Users/Dmitry/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
-                    "C:/Users/Dmitry/.platformio/packages/tool-unity",
                     ""
                 ]
             },
             "defines": [
-                "PLATFORMIO=50004",
+                "PLATFORMIO=60105",
                 "ARDUINO_AVR_MEGA2560",
                 "F_CPU=16000000L",
                 "ARDUINO_ARCH_AVR",
